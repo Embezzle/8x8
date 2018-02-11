@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58e8541f0eadd41999a11b81c6e2a4ea, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  CurrentPluginConfig: 
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{B39C0626-B852-43D7-8B6F-C0979AFD99D4}'
+    m_lastTimePsrt1: -241564672
+    m_lastTimePart2: -1999277667
+    List: []
+  - PhysicalPath: Events/ubcGameJam.wwu
+    ParentPhysicalPath: 
+    Guid: '{B24E6C7E-440C-4C54-8D18-D1D1C0966A0E}'
+    m_lastTimePsrt1: -241564672
+    m_lastTimePart2: -1999277667
+    List:
+    - Name: amb
+      Path: ubcGameJam/amb
+      PathAndIcons:
+      - ElementName: ubcGameJam
+        ObjectType: 12
+      - ElementName: amb
+        ObjectType: 3
+      ID: 1117531639
+      Guid: 93ccceb022527449a7b15df1ef69c5f5
+      maxAttenuation: 0
+    - Name: fs
+      Path: ubcGameJam/fs
+      PathAndIcons:
+      - ElementName: ubcGameJam
+        ObjectType: 12
+      - ElementName: fs
+        ObjectType: 3
+      ID: 1802970376
+      Guid: 2a0597048dffed4a9948cb126e6dccca
+      maxAttenuation: 0
+    - Name: LogPush
+      Path: ubcGameJam/LogPush
+      PathAndIcons:
+      - ElementName: ubcGameJam
+        ObjectType: 12
+      - ElementName: LogPush
+        ObjectType: 3
+      ID: 529243753
+      Guid: 81a38253878cb04195db1e8736f48eaf
+      maxAttenuation: 0
+    - Name: mx
+      Path: ubcGameJam/mx
+      PathAndIcons:
+      - ElementName: ubcGameJam
+        ObjectType: 12
+      - ElementName: mx
+        ObjectType: 3
+      ID: 1685527054
+      Guid: 3dcc739c3d21d74eb789b7003c710c2d
+      maxAttenuation: 0
+    - Name: PipeRoll
+      Path: ubcGameJam/PipeRoll
+      PathAndIcons:
+      - ElementName: ubcGameJam
+        ObjectType: 12
+      - ElementName: PipeRoll
+        ObjectType: 3
+      ID: 1373202180
+      Guid: 9a703e68ca3082488c6c798f90f32e8a
+      maxAttenuation: 0
+    - Name: PipeRoll_landinWater
+      Path: ubcGameJam/PipeRoll_landinWater
+      PathAndIcons:
+      - ElementName: ubcGameJam
+        ObjectType: 12
+      - ElementName: PipeRoll_landinWater
+        ObjectType: 3
+      ID: -27574014
+      Guid: 4de5564046cd5f4ebffe3f659d3418af
+      maxAttenuation: 0
+    - Name: PipeRoll_Stop
+      Path: ubcGameJam/PipeRoll_Stop
+      PathAndIcons:
+      - ElementName: ubcGameJam
+        ObjectType: 12
+      - ElementName: PipeRoll_Stop
+        ObjectType: 3
+      ID: -957653149
+      Guid: 5113173c497b804c89b02782b20a2536
+      maxAttenuation: 0
+    - Name: StonePush
+      Path: ubcGameJam/StonePush
+      PathAndIcons:
+      - ElementName: ubcGameJam
+        ObjectType: 12
+      - ElementName: StonePush
+        ObjectType: 3
+      ID: 1175726480
+      Guid: 487f454c162f2b4885f13abf5951fe22
+      maxAttenuation: 0
+    - Name: switchDown
+      Path: ubcGameJam/switchDown
+      PathAndIcons:
+      - ElementName: ubcGameJam
+        ObjectType: 12
+      - ElementName: switchDown
+        ObjectType: 3
+      ID: -756824183
+      Guid: 7bac552e2d243740be2bfa841abf63c0
+      maxAttenuation: 0
+    - Name: switchUp
+      Path: ubcGameJam/switchUp
+      PathAndIcons:
+      - ElementName: ubcGameJam
+        ObjectType: 12
+      - ElementName: switchUp
+        ObjectType: 3
+      ID: 1141833678
+      Guid: dd94bb842d791e4abbb6839e9035537d
+      maxAttenuation: 0
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{03C57A3A-741B-45C2-B3D6-410148A46436}'
+    m_lastTimePsrt1: 1303533440
+    m_lastTimePart2: -1999277663
+    List: []
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{78A5B46D-30F7-4D57-B1E5-855088367C27}'
+    m_lastTimePsrt1: -1637905536
+    m_lastTimePart2: -1999277708
+    List: []
+  - PhysicalPath: States/ubcGameJam.wwu
+    ParentPhysicalPath: 
+    Guid: '{0DE8020D-CC64-4D92-B30E-BCD97A4B000C}'
+    m_lastTimePsrt1: -1891499264
+    m_lastTimePart2: -1999277665
+    List:
+    - Name: Zone
+      Path: ubcGameJam/Zone
+      PathAndIcons:
+      - ElementName: ubcGameJam
+        ObjectType: 12
+      - ElementName: Zone
+        ObjectType: 9
+      ID: 832057375
+      Guid: c5fd3ee4332efe47a273b0f7fc811bb0
+      values:
+      - Cave
+      - Factory
+      - Grass
+      - None
+      - Temple
+      ValueIcons:
+      - ElementName: Cave
+        ObjectType: 8
+      - ElementName: Factory
+        ObjectType: 8
+      - ElementName: Grass
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      - ElementName: Temple
+        ObjectType: 8
+      valueIDs: 5ebcb6f549b2fb51d92e3dfddb3ba32cda1c798a
+      ValueGuids:
+      - bytes: 7dc3f1c4be11464cafa2587458407b3e
+      - bytes: 6bbfc9c7a09f0e4fbd139d1aa4c66f1c
+      - bytes: af2b35bd6f4cf540a07d923d180e2d29
+      - bytes: b89916f6e18d3146b1d51611f66e4b24
+      - bytes: f90dc663cc7fe04d8ebcf4fd68da86cb
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{591AC1BA-3FE2-45F5-A10D-D2C5E5D801AD}'
+    m_lastTimePsrt1: -1637905536
+    m_lastTimePart2: -1999277708
+    List: []
+  - PhysicalPath: Switches/ubcGameJam.wwu
+    ParentPhysicalPath: 
+    Guid: '{9293F1F7-5C9D-417D-A66D-74AAC85D93A5}'
+    m_lastTimePsrt1: 1083468032
+    m_lastTimePart2: -1999277665
+    List:
+    - Name: fs_material
+      Path: ubcGameJam/fs_material
+      PathAndIcons:
+      - ElementName: ubcGameJam
+        ObjectType: 12
+      - ElementName: fs_material
+        ObjectType: 11
+      ID: 20433824
+      Guid: 9aaa674a3f7e2949a752d5f312cb249e
+      values:
+      - Empty
+      - Stone
+      - underfootGrass
+      - underfootGrate
+      - underfootWater
+      ValueIcons:
+      - ElementName: Empty
+        ObjectType: 10
+      - ElementName: Stone
+        ObjectType: 10
+      - ElementName: underfootGrass
+        ObjectType: 10
+      - ElementName: underfootGrate
+        ObjectType: 10
+      - ElementName: underfootWater
+        ObjectType: 10
+      valueIDs: 9485eec71c6d8948453f71c58a4371c8b65266db
+      ValueGuids:
+      - bytes: 20aeda96b407c94b8229911b4da4ee87
+      - bytes: 76ab04230f4cfc47b8987246972135fb
+      - bytes: 79815a88926a954ca8b923ce30246428
+      - bytes: 19b1eae2f4119e41bb61cfa2db07237d
+      - bytes: 699c06e2e051f749a14b648e42af3622
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{B94BE9DF-582E-46AE-89F5-AE8C1231878C}'
+    m_lastTimePsrt1: -1637905536
+    m_lastTimePart2: -1999277708
+    List: []
+  - PhysicalPath: SoundBanks/ubcGameJam.wwu
+    ParentPhysicalPath: 
+    Guid: '{4FD48A45-F37D-4C58-903A-F92236A121C5}'
+    m_lastTimePsrt1: -2092872832
+    m_lastTimePart2: -1999277707
+    List:
+    - Name: main
+      Path: ubcGameJam/main
+      PathAndIcons:
+      - ElementName: ubcGameJam
+        ObjectType: 12
+      - ElementName: main
+        ObjectType: 7
+      ID: -1133058374
+      Guid: c52bb5b4cb5a7b468c29a7f95b4dc384
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{9B78BA9C-E97D-42C3-AA4F-F6C1A8012894}'
+    m_lastTimePsrt1: -1637905536
+    m_lastTimePart2: -1999277708
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{4CE59EFA-9546-4541-9B1C-6A6B70449975}'
+    m_lastTimePsrt1: -1637905536
+    m_lastTimePart2: -1999277708
+    List: []
+  ExpandedItems:
+  - /ubcGameJam_WwiseProject
+  - /ubcGameJam_WwiseProject/States
+  - /ubcGameJam_WwiseProject/States/ubcGameJam
+  - /ubcGameJam_WwiseProject/States/ubcGameJam/Zone
+  m_lastPopulateTimePsrt1: 0
+  m_lastPopulateTimePart2: 0
+  autoPopulateEnabled: 1
+  basePath: Audio/GeneratedSoundBanks
+  language: English(US)
+  defaultPoolSize: 4096
+  lowerPoolSize: 2048
+  streamingPoolSize: 1024
+  preparePoolSize: 0
+  memoryCutoffThreshold: 0.95
+  callbackManagerBufferSize: 4

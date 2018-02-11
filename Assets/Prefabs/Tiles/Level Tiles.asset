@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5011dd808fc9e48e1a40bda3584de8f9, type: 3}
+  m_Name: Level Tiles
+  m_EditorClassIdentifier: 
+  Tiles:
+  - Name: Box
+    Prefab: {fileID: 1101785862807246, guid: 5978f31791da340c08bf45beb6eb0fac, type: 2}
+  - Name: bg Grass
+    Prefab: {fileID: 1101785862807246, guid: 0f8b56c69fe804acbb25bf90a7687e88, type: 2}
+  - Name: bg water
+    Prefab: {fileID: 1101785862807246, guid: 1b890d385bfc74311bdf702cb4571723, type: 2}
+  - Name: LongBox
+    Prefab: {fileID: 1101785862807246, guid: ae0084f06a5ac4bfb825ccd7f5fa21fa, type: 2}
+  - Name: pipe
+    Prefab: {fileID: 1101785862807246, guid: 27438597a4a5e4ecb95cd0747961a8a6, type: 2}
+  - Name: Wall
+    Prefab: {fileID: 1101785862807246, guid: ed13c8d1e8f8745a4a6f99846c9bcf63, type: 2}
+  - Name: Water
+    Prefab: {fileID: 1101785862807246, guid: 41f7c7989bb804a5f834e9889a4e98cd, type: 2}
+  - Name: Switch
+    Prefab: {fileID: 1101785862807246, guid: 0d1ad2863ff5a4a6b8680f3f4502a2e8, type: 2}

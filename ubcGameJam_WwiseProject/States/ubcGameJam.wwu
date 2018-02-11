@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0DE8020D-CC64-4D92-B30E-BCD97A4B000C}" SchemaVersion="80">
+	<States>
+		<WorkUnit Name="ubcGameJam" ID="{0DE8020D-CC64-4D92-B30E-BCD97A4B000C}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Zone" ID="{E43EFDC5-2E33-47FE-A273-B0F7FC811BB0}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="3"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{F61699B8-8DE1-4631-B1D5-1611F66E4B24}"/>
+						<State Name="Grass" ID="{BD352BAF-4C6F-40F5-A07D-923D180E2D29}"/>
+						<State Name="Cave" ID="{C4F1C37D-11BE-4C46-AFA2-587458407B3E}"/>
+						<State Name="Factory" ID="{C7C9BF6B-9FA0-4F0E-BD13-9D1AA4C66F1C}"/>
+						<State Name="Temple" ID="{63C60DF9-7FCC-4DE0-8EBC-F4FD68DA86CB}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

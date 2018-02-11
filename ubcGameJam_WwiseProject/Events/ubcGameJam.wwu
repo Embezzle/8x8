@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B24E6C7E-440C-4C54-8D18-D1D1C0966A0E}" SchemaVersion="80">
+	<Events>
+		<WorkUnit Name="ubcGameJam" ID="{B24E6C7E-440C-4C54-8D18-D1D1C0966A0E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="fs" ID="{0497052A-FF8D-4AED-9948-CB126E6DCCCA}">
+					<ChildrenList>
+						<Action Name="" ID="{FB393305-9EBA-4455-9993-00DFFBEC6AB6}" ShortID="812155324">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{2FFFBD47-56DC-4D4A-922F-BEA67ADCA1E7}" WorkUnitID="{906A946C-56A9-4044-9D18-074E6D3EBFEE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StonePush" ID="{4C457F48-2F16-482B-85F1-3ABF5951FE22}">
+					<ChildrenList>
+						<Action Name="" ID="{7ADF3984-1FD1-4B5E-80EE-40A2798116DB}" ShortID="183781511">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StonePush" ID="{E88F7E88-6B03-479C-98DC-3CEB0E1B4C14}" WorkUnitID="{906A946C-56A9-4044-9D18-074E6D3EBFEE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="switchDown" ID="{2E55AC7B-242D-4037-BE2B-FA841ABF63C0}">
+					<ChildrenList>
+						<Action Name="" ID="{6C8F0A27-6CF1-49FA-AC6B-2CF2B98E5D0E}" ShortID="23264573">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="switchDown" ID="{A6446BA6-CF44-417A-8614-ACD66969370D}" WorkUnitID="{906A946C-56A9-4044-9D18-074E6D3EBFEE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="switchUp" ID="{84BB94DD-792D-4A1E-BBB6-839E9035537D}">
+					<ChildrenList>
+						<Action Name="" ID="{1D57D6EE-990B-4C4E-9454-F17C422A77EF}" ShortID="1055655613">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="switchUp" ID="{07F2C8CD-3889-46C2-8EFF-CBDE448241AF}" WorkUnitID="{906A946C-56A9-4044-9D18-074E6D3EBFEE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PipeRoll_Stop" ID="{3C171351-7B49-4C80-89B0-2782B20A2536}">
+					<ChildrenList>
+						<Action Name="" ID="{A2963FBD-7CEB-4681-AEF3-1B69F473FD45}" ShortID="138742188">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PipeRoll" ID="{88B605C8-5335-4732-9432-E790ABA41B55}" WorkUnitID="{906A946C-56A9-4044-9D18-074E6D3EBFEE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2FC77BFD-BE8E-4D52-81AC-62DA2651072E}" ShortID="340852123">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PipeImpact" ID="{50BE1F3A-02A3-4B97-8403-9A9F57C1B34D}" WorkUnitID="{906A946C-56A9-4044-9D18-074E6D3EBFEE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PipeRoll" ID="{683E709A-30CA-4882-8C6C-798F90F32E8A}">
+					<ChildrenList>
+						<Action Name="" ID="{36DF3900-E6AE-4BB3-8528-B8ED3E41A8FD}" ShortID="731558637">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PipeRoll" ID="{88B605C8-5335-4732-9432-E790ABA41B55}" WorkUnitID="{906A946C-56A9-4044-9D18-074E6D3EBFEE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PipeRoll_landinWater" ID="{4056E54D-CD46-4E5F-BFFE-3F659D3418AF}">
+					<ChildrenList>
+						<Action Name="" ID="{11CD07B2-5580-4D9D-8A2D-B27DD7B1D42B}" ShortID="178226285">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PipeRoll" ID="{88B605C8-5335-4732-9432-E790ABA41B55}" WorkUnitID="{906A946C-56A9-4044-9D18-074E6D3EBFEE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DC674C59-E6A5-40A4-836C-8EFC0B6FAC76}" ShortID="71362530">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pipelandinwater" ID="{118F9307-8900-4A38-A6D4-A56FB970762D}" WorkUnitID="{906A946C-56A9-4044-9D18-074E6D3EBFEE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LogPush" ID="{5382A381-8C87-41B0-95DB-1E8736F48EAF}">
+					<ChildrenList>
+						<Action Name="" ID="{784FCDD0-ADF4-4C53-87E9-41626AF2FC43}" ShortID="483165496">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LogPush" ID="{7A9F89B8-A0EE-4F08-9DCB-177ACB40A8BC}" WorkUnitID="{906A946C-56A9-4044-9D18-074E6D3EBFEE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mx" ID="{9C73CC3D-213D-4ED7-B789-B7003C710C2D}">
+					<ChildrenList>
+						<Action Name="" ID="{DBEE5578-9DB1-4977-B4C8-7CD960174001}" ShortID="545812253">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mx" ID="{22DCA513-B1E4-47A1-AF3E-C5345572E5F1}" WorkUnitID="{2617DBB2-F2B9-4F61-B973-0F60DE195D3C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb" ID="{B0CECC93-5222-4974-A7B1-5DF1EF69C5F5}">
+					<ChildrenList>
+						<Action Name="" ID="{512A4C19-5DB1-4CE3-B79C-6B1C38B15B0D}" ShortID="593778239">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb" ID="{18068CA2-3A0F-4A56-989B-3509EC3082BF}" WorkUnitID="{906A946C-56A9-4044-9D18-074E6D3EBFEE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

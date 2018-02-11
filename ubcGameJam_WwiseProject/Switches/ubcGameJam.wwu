@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9293F1F7-5C9D-417D-A66D-74AAC85D93A5}" SchemaVersion="80">
+	<Switches>
+		<WorkUnit Name="ubcGameJam" ID="{9293F1F7-5C9D-417D-A66D-74AAC85D93A5}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="fs_material" ID="{4A67AA9A-7E3F-4929-A752-D5F312CB249E}">
+					<ChildrenList>
+						<Switch Name="Stone" ID="{2304AB76-4C0F-47FC-B898-7246972135FB}"/>
+						<Switch Name="underfootGrate" ID="{E2EAB119-11F4-419E-BB61-CFA2DB07237D}"/>
+						<Switch Name="underfootGrass" ID="{885A8179-6A92-4C95-A8B9-23CE30246428}"/>
+						<Switch Name="Empty" ID="{96DAAE20-07B4-4BC9-8229-911B4DA4EE87}"/>
+						<Switch Name="underfootWater" ID="{E2069C69-51E0-49F7-A14B-648E42AF3622}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WwiseSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <WwiseProjectPath>../ubcGameJam_WwiseProject/ubcGameJam_WwiseProject.wproj</WwiseProjectPath>
+  <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
+  <CreateWwiseGlobal>true</CreateWwiseGlobal>
+  <CreateWwiseListener>false</CreateWwiseListener>
+  <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
+  <WwiseInstallationPathWindows>null</WwiseInstallationPathWindows>
+  <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise 2017.1.5.6429/Wwise.app</WwiseInstallationPathMac>
+  <CreatedPicker>true</CreatedPicker>
+</WwiseSettings>

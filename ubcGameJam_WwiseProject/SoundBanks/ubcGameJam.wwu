@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4FD48A45-F37D-4C58-903A-F92236A121C5}" SchemaVersion="80">
+	<SoundBanks>
+		<WorkUnit Name="ubcGameJam" ID="{4FD48A45-F37D-4C58-903A-F92236A121C5}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="main" ID="{B4B52BC5-5ACB-467B-8C29-A7F95B4DC384}">
+					<ObjectInclusionList>
+						<ObjectRef Name="ubcGameJam" ID="{B24E6C7E-440C-4C54-8D18-D1D1C0966A0E}" WorkUnitID="{B24E6C7E-440C-4C54-8D18-D1D1C0966A0E}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

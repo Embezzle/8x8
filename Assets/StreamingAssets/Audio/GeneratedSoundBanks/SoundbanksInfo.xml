@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="125">
+	<RootPaths>
+		<ProjectRoot>/Users/Franz/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/z:/Users/Shared/Unity/ubcGameJam2018/ubcGameJam/ubcGameJam_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/Franz/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/z:/Users/Shared/Unity/ubcGameJam2018/ubcGameJam/ubcGameJam_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/Franz/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/z:/Users/Shared/Unity/ubcGameJam2018/ubcGameJam/Assets/StreamingAssets/Audio/GeneratedSoundBanks/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/Franz/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/z:/Users/Shared/Unity/ubcGameJam2018/ubcGameJam/ubcGameJam_WwiseProject/GeneratedSoundBanks/Mac/</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="106356010" Language="SFX">
+			<ShortName>Meddow_Ambience_Loop.wav</ShortName>
+			<Path>SFX/Meddow_Ambience_Loop_50F3B81A.wem</Path>
+		</File>
+		<File Id="273884291" Language="SFX">
+			<ShortName>Dam_Ambiance_Loop.wav</ShortName>
+			<Path>SFX/Dam_Ambiance_Loop_50F3B81A.wem</Path>
+		</File>
+		<File Id="517083786" Language="SFX">
+			<ShortName>Torch_Loop.wav</ShortName>
+			<Path>SFX/Torch_Loop_50F3B81A.wem</Path>
+		</File>
+		<File Id="517476737" Language="SFX">
+			<ShortName>Cave_Ambiance.wav</ShortName>
+			<Path>SFX/Cave_Ambiance_50F3B81A.wem</Path>
+		</File>
+		<File Id="632826500" Language="SFX">
+			<ShortName>musicLoop.wav</ShortName>
+			<Path>SFX/musicLoop_50F3B81A.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\ubcGameJam\main</ObjectPath>
+			<ShortName>main</ShortName>
+			<Path>main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1117531639" Name="amb" ObjectPath="\Events\ubcGameJam\amb"/>
+				<Event Id="1802970376" Name="fs" ObjectPath="\Events\ubcGameJam\fs"/>
+				<Event Id="529243753" Name="LogPush" ObjectPath="\Events\ubcGameJam\LogPush"/>
+				<Event Id="1685527054" Name="mx" ObjectPath="\Events\ubcGameJam\mx"/>
+				<Event Id="1373202180" Name="PipeRoll" ObjectPath="\Events\ubcGameJam\PipeRoll"/>
+				<Event Id="4267393282" Name="PipeRoll_landinWater" ObjectPath="\Events\ubcGameJam\PipeRoll_landinWater"/>
+				<Event Id="3337314147" Name="PipeRoll_Stop" ObjectPath="\Events\ubcGameJam\PipeRoll_Stop"/>
+				<Event Id="1175726480" Name="StonePush" ObjectPath="\Events\ubcGameJam\StonePush"/>
+				<Event Id="3538143113" Name="switchDown" ObjectPath="\Events\ubcGameJam\switchDown"/>
+				<Event Id="1141833678" Name="switchUp" ObjectPath="\Events\ubcGameJam\switchUp"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="106356010"/>
+				<File Id="273884291"/>
+				<File Id="517083786"/>
+				<File Id="517476737"/>
+				<File Id="632826500"/>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="71772415" Language="SFX">
+					<ShortName>drive-download-20180211T223849Z-001\Footstep_Puddle_3.wav</ShortName>
+					<Path>SFX/drive-download-20180211T223849Z-001/Footstep_Puddle_3_BFFC3160.wem</Path>
+				</File>
+				<File Id="136391474" Language="SFX">
+					<ShortName>Footsteps\Stone\WalkCaveVerb-003-005.wav</ShortName>
+					<Path>SFX/Footsteps/Stone/WalkCaveVerb-003-005_BFFC3160.wem</Path>
+				</File>
+				<File Id="163309832" Language="SFX">
+					<ShortName>StonePush\Lo\stonepush_lo1.wav</ShortName>
+					<Path>SFX/StonePush/Lo/stonepush_lo1_64775CB4.wem</Path>
+				</File>
+				<File Id="179656062" Language="SFX">
+					<ShortName>piperoll01.wav</ShortName>
+					<Path>SFX/piperoll01_BFFC3160.wem</Path>
+				</File>
+				<File Id="207255493" Language="SFX">
+					<ShortName>Footsteps\Grass\fs_grass01.wav</ShortName>
+					<Path>SFX/Footsteps/Grass/fs_grass01_BFFC3160.wem</Path>
+				</File>
+				<File Id="234958533" Language="SFX">
+					<ShortName>drive-download-20180211T223849Z-001\Footstep_Puddle_6.wav</ShortName>
+					<Path>SFX/drive-download-20180211T223849Z-001/Footstep_Puddle_6_BFFC3160.wem</Path>
+				</File>
+				<File Id="250700919" Language="SFX">
+					<ShortName>StonePush\Hi\stonepush_hi2.wav</ShortName>
+					<Path>SFX/StonePush/Hi/stonepush_hi2_2D13F5CE.wem</Path>
+				</File>
+				<File Id="254489257" Language="SFX">
+					<ShortName>Footsteps\Stone\WalkCaveVerb-003-001.wav</ShortName>
+					<Path>SFX/Footsteps/Stone/WalkCaveVerb-003-001_BFFC3160.wem</Path>
+				</File>
+				<File Id="287565419" Language="SFX">
+					<ShortName>Footsteps\Stone\WalkCaveVerb-003-002.wav</ShortName>
+					<Path>SFX/Footsteps/Stone/WalkCaveVerb-003-002_BFFC3160.wem</Path>
+				</File>
+				<File Id="305857109" Language="SFX">
+					<ShortName>piperoll03.wav</ShortName>
+					<Path>SFX/piperoll03_BFFC3160.wem</Path>
+				</File>
+				<File Id="333212510" Language="SFX">
+					<ShortName>Footsteps\Grate\fs_grate05.wav</ShortName>
+					<Path>SFX/Footsteps/Grate/fs_grate05_BFFC3160.wem</Path>
+				</File>
+				<File Id="357519954" Language="SFX">
+					<ShortName>drive-download-20180211T223849Z-001\Footstep_Puddle_2.wav</ShortName>
+					<Path>SFX/drive-download-20180211T223849Z-001/Footstep_Puddle_2_BFFC3160.wem</Path>
+				</File>
+				<File Id="365877811" Language="SFX">
+					<ShortName>drive-download-20180211T223849Z-001\Footstep_Puddle_5.wav</ShortName>
+					<Path>SFX/drive-download-20180211T223849Z-001/Footstep_Puddle_5_BFFC3160.wem</Path>
+				</File>
+				<File Id="420734491" Language="SFX">
+					<ShortName>switchUp.wav</ShortName>
+					<Path>SFX/switchUp_574AE0BC.wem</Path>
+				</File>
+				<File Id="421201620" Language="SFX">
+					<ShortName>Footsteps\Grate\fs_grate03.wav</ShortName>
+					<Path>SFX/Footsteps/Grate/fs_grate03_BFFC3160.wem</Path>
+				</File>
+				<File Id="491074672" Language="SFX">
+					<ShortName>piperoll06.wav</ShortName>
+					<Path>SFX/piperoll06_BFFC3160.wem</Path>
+				</File>
+				<File Id="493028568" Language="SFX">
+					<ShortName>Footsteps\Grate\fs_grate01.wav</ShortName>
+					<Path>SFX/Footsteps/Grate/fs_grate01_BFFC3160.wem</Path>
+				</File>
+				<File Id="506580522" Language="SFX">
+					<ShortName>Footsteps\Grate\fs_grate06.wav</ShortName>
+					<Path>SFX/Footsteps/Grate/fs_grate06_BFFC3160.wem</Path>
+				</File>
+				<File Id="542497904" Language="SFX">
+					<ShortName>piperoll02.wav</ShortName>
+					<Path>SFX/piperoll02_BFFC3160.wem</Path>
+				</File>
+				<File Id="586226300" Language="SFX">
+					<ShortName>drive-download-20180211T223849Z-001\Footstep_Puddle_8.wav</ShortName>
+					<Path>SFX/drive-download-20180211T223849Z-001/Footstep_Puddle_8_BFFC3160.wem</Path>
+				</File>
+				<File Id="587838167" Language="SFX">
+					<ShortName>Footsteps\Grate\fs_grate04.wav</ShortName>
+					<Path>SFX/Footsteps/Grate/fs_grate04_BFFC3160.wem</Path>
+				</File>
+				<File Id="609711561" Language="SFX">
+					<ShortName>drive-download-20180211T223849Z-001\Footstep_Puddle_1.wav</ShortName>
+					<Path>SFX/drive-download-20180211T223849Z-001/Footstep_Puddle_1_BFFC3160.wem</Path>
+				</File>
+				<File Id="618631413" Language="SFX">
+					<ShortName>Footsteps\Grate\fs_grate02.wav</ShortName>
+					<Path>SFX/Footsteps/Grate/fs_grate02_BFFC3160.wem</Path>
+				</File>
+				<File Id="633106198" Language="SFX">
+					<ShortName>LogPush.wav</ShortName>
+					<Path>SFX/LogPush_A5DD330A.wem</Path>
+				</File>
+				<File Id="642639763" Language="SFX">
+					<ShortName>pipelandinwater.wav</ShortName>
+					<Path>SFX/pipelandinwater_BFFC3160.wem</Path>
+				</File>
+				<File Id="647889645" Language="SFX">
+					<ShortName>Footsteps\Stone\WalkCaveVerb-003-004.wav</ShortName>
+					<Path>SFX/Footsteps/Stone/WalkCaveVerb-003-004_BFFC3160.wem</Path>
+				</File>
+				<File Id="767168747" Language="SFX">
+					<ShortName>Footsteps\Stone\WalkCaveVerb-003-003.wav</ShortName>
+					<Path>SFX/Footsteps/Stone/WalkCaveVerb-003-003_BFFC3160.wem</Path>
+				</File>
+				<File Id="786271319" Language="SFX">
+					<ShortName>PipeImpact1.wav</ShortName>
+					<Path>SFX/PipeImpact1_BFFC3160.wem</Path>
+				</File>
+				<File Id="806869518" Language="SFX">
+					<ShortName>PipeImpact2.wav</ShortName>
+					<Path>SFX/PipeImpact2_BFFC3160.wem</Path>
+				</File>
+				<File Id="843048181" Language="SFX">
+					<ShortName>Footsteps\Grass\fs_grass02.wav</ShortName>
+					<Path>SFX/Footsteps/Grass/fs_grass02_BFFC3160.wem</Path>
+				</File>
+				<File Id="864155097" Language="SFX">
+					<ShortName>StonePush\Lo\stonepush_lo2.wav</ShortName>
+					<Path>SFX/StonePush/Lo/stonepush_lo2_E91401B2.wem</Path>
+				</File>
+				<File Id="875103958" Language="SFX">
+					<ShortName>drive-download-20180211T223849Z-001\Footstep_Puddle_4.wav</ShortName>
+					<Path>SFX/drive-download-20180211T223849Z-001/Footstep_Puddle_4_BFFC3160.wem</Path>
+				</File>
+				<File Id="883354888" Language="SFX">
+					<ShortName>Footsteps\Grass\fs_grass03.wav</ShortName>
+					<Path>SFX/Footsteps/Grass/fs_grass03_BFFC3160.wem</Path>
+				</File>
+				<File Id="915446475" Language="SFX">
+					<ShortName>Footsteps\Grass\fs_grass04.wav</ShortName>
+					<Path>SFX/Footsteps/Grass/fs_grass04_BFFC3160.wem</Path>
+				</File>
+				<File Id="919714675" Language="SFX">
+					<ShortName>LogPush2.wav</ShortName>
+					<Path>SFX/LogPush2_BB475105.wem</Path>
+				</File>
+				<File Id="938150773" Language="SFX">
+					<ShortName>piperoll04.wav</ShortName>
+					<Path>SFX/piperoll04_BFFC3160.wem</Path>
+				</File>
+				<File Id="952385495" Language="SFX">
+					<ShortName>switchDown.wav</ShortName>
+					<Path>SFX/switchDown_BFFC3160.wem</Path>
+				</File>
+				<File Id="977677137" Language="SFX">
+					<ShortName>piperoll05.wav</ShortName>
+					<Path>SFX/piperoll05_BFFC3160.wem</Path>
+				</File>
+				<File Id="1026726403" Language="SFX">
+					<ShortName>StonePush\Hi\stonepush_hi1.wav</ShortName>
+					<Path>SFX/StonePush/Hi/stonepush_hi1_59FB0742.wem</Path>
+				</File>
+				<File Id="1066277871" Language="SFX">
+					<ShortName>drive-download-20180211T223849Z-001\Footstep_Puddle_7.wav</ShortName>
+					<Path>SFX/drive-download-20180211T223849Z-001/Footstep_Puddle_7_BFFC3160.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

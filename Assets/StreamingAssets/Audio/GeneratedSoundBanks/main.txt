@@ -1,0 +1,84 @@
+Event	ID	Name			Wwise Object Path	Notes
+	529243753	LogPush			\ubcGameJam\LogPush	
+	1117531639	amb			\ubcGameJam\amb	
+	1141833678	switchUp			\ubcGameJam\switchUp	
+	1175726480	StonePush			\ubcGameJam\StonePush	
+	1373202180	PipeRoll			\ubcGameJam\PipeRoll	
+	1685527054	mx			\ubcGameJam\mx	
+	1802970376	fs			\ubcGameJam\fs	
+	3337314147	PipeRoll_Stop			\ubcGameJam\PipeRoll_Stop	
+	3538143113	switchDown			\ubcGameJam\switchDown	
+	4267393282	PipeRoll_landinWater			\ubcGameJam\PipeRoll_landinWater	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	20433824	fs_material			\ubcGameJam\fs_material	
+
+Switch	ID	Name	Switch Group			Notes
+	1216965916	Stone	fs_material			
+	3312533317	underfootGrass	fs_material			
+	3354297748	Empty	fs_material			
+	3362866058	underfootGrate	fs_material			
+	3680916150	underfootWater	fs_material			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	832057375	Zone			\ubcGameJam\Zone	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Zone			
+	1375449673	Factory	Zone			
+	2323193050	Temple	Zone			
+	4122393694	Cave	Zone			
+	4248645337	Grass	Zone			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	939992413	Temple	Zone	\Interactive Music Hierarchy\ubcGameJam\mx		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	71772415	Footstep_Puddle_3	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\drive-download-20180211T223849Z-001\Footstep_Puddle_3_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\puddle\Footstep_Puddle_3		8040
+	136391474	WalkCaveVerb-003-005	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\Footsteps\Stone\WalkCaveVerb-003-005_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\Stone\WalkCaveVerb-003-005		32244
+	163309832	stonepush_lo1	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\StonePush\Lo\stonepush_lo1_64775CB4.wem		\Actor-Mixer Hierarchy\ubcGameJam\StonePush\Lo\stonepush_lo1		10714
+	179656062	piperoll01	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\piperoll01_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Pipe\PipeRoll\piperoll01		23581
+	207255493	fs_grass01	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\Footsteps\Grass\fs_grass01_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\Grass\fs_grass01		6978
+	234958533	Footstep_Puddle_6	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\drive-download-20180211T223849Z-001\Footstep_Puddle_6_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\puddle\Footstep_Puddle_6		10374
+	250700919	stonepush_hi2	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\StonePush\Hi\stonepush_hi2_2D13F5CE.wem		\Actor-Mixer Hierarchy\ubcGameJam\StonePush\Hi\stonepush_hi2		7629
+	254489257	WalkCaveVerb-003-001	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\Footsteps\Stone\WalkCaveVerb-003-001_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\Stone\WalkCaveVerb-003-001		32560
+	287565419	WalkCaveVerb-003-002	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\Footsteps\Stone\WalkCaveVerb-003-002_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\Stone\WalkCaveVerb-003-002		32582
+	305857109	piperoll03	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\piperoll03_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Pipe\PipeRoll\piperoll03		44815
+	333212510	fs_grate05	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\Footsteps\Grate\fs_grate05_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\Grate\fs_grate05		16620
+	357519954	Footstep_Puddle_2	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\drive-download-20180211T223849Z-001\Footstep_Puddle_2_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\puddle\Footstep_Puddle_2		7736
+	365877811	Footstep_Puddle_5	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\drive-download-20180211T223849Z-001\Footstep_Puddle_5_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\puddle\Footstep_Puddle_5		6887
+	420734491	switchUp	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\switchUp_574AE0BC.wem		\Actor-Mixer Hierarchy\ubcGameJam\Switch\switchUp		6239
+	421201620	fs_grate03	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\Footsteps\Grate\fs_grate03_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\Grate\fs_grate03		15875
+	491074672	piperoll06	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\piperoll06_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Pipe\PipeRoll\piperoll06		28100
+	493028568	fs_grate01	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\Footsteps\Grate\fs_grate01_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\Grate\fs_grate01		16870
+	506580522	fs_grate06	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\Footsteps\Grate\fs_grate06_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\Grate\fs_grate06		16861
+	542497904	piperoll02	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\piperoll02_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Pipe\PipeRoll\piperoll02		32252
+	586226300	Footstep_Puddle_8	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\drive-download-20180211T223849Z-001\Footstep_Puddle_8_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\puddle\Footstep_Puddle_8		12594
+	587838167	fs_grate04	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\Footsteps\Grate\fs_grate04_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\Grate\fs_grate04		16264
+	609711561	Footstep_Puddle_1	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\drive-download-20180211T223849Z-001\Footstep_Puddle_1_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\puddle\Footstep_Puddle_1		7284
+	618631413	fs_grate02	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\Footsteps\Grate\fs_grate02_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\Grate\fs_grate02		16009
+	633106198	LogPush	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\LogPush_A5DD330A.wem		\Actor-Mixer Hierarchy\ubcGameJam\Log\LogPush\LogPush		11908
+	642639763	pipelandinwater	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\pipelandinwater_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Pipe\pipelandinwater		52342
+	647889645	WalkCaveVerb-003-004	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\Footsteps\Stone\WalkCaveVerb-003-004_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\Stone\WalkCaveVerb-003-004		29965
+	767168747	WalkCaveVerb-003-003	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\Footsteps\Stone\WalkCaveVerb-003-003_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\Stone\WalkCaveVerb-003-003		32242
+	786271319	PipeImpact1	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\PipeImpact1_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Pipe\PipeImpact\PipeImpact1		24283
+	806869518	PipeImpact2	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\PipeImpact2_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Pipe\PipeImpact\PipeImpact2		25421
+	843048181	fs_grass02	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\Footsteps\Grass\fs_grass02_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\Grass\fs_grass02		10515
+	864155097	stonepush_lo2	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\StonePush\Lo\stonepush_lo2_E91401B2.wem		\Actor-Mixer Hierarchy\ubcGameJam\StonePush\Lo\stonepush_lo2		11149
+	875103958	Footstep_Puddle_4	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\drive-download-20180211T223849Z-001\Footstep_Puddle_4_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\puddle\Footstep_Puddle_4		10079
+	883354888	fs_grass03	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\Footsteps\Grass\fs_grass03_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\Grass\fs_grass03		13254
+	915446475	fs_grass04	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\Footsteps\Grass\fs_grass04_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\Grass\fs_grass04		10295
+	919714675	LogPush2	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\LogPush2_BB475105.wem		\Actor-Mixer Hierarchy\ubcGameJam\Log\LogPush\LogPush2		13328
+	938150773	piperoll04	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\piperoll04_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Pipe\PipeRoll\piperoll04		44707
+	952385495	switchDown	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\switchDown_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Switch\switchDown		4210
+	977677137	piperoll05	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\piperoll05_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Pipe\PipeRoll\piperoll05		34432
+	1026726403	stonepush_hi1	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\StonePush\Hi\stonepush_hi1_59FB0742.wem		\Actor-Mixer Hierarchy\ubcGameJam\StonePush\Hi\stonepush_hi1		12485
+	1066277871	Footstep_Puddle_7	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\drive-download-20180211T223849Z-001\Footstep_Puddle_7_BFFC3160.wem		\Actor-Mixer Hierarchy\ubcGameJam\Footsteps\puddle\Footstep_Puddle_7		6345
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	106356010	Meddow_Ambience_Loop	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\Meddow_Ambience_Loop_50F3B81A.wem	106356010.wem	\Actor-Mixer Hierarchy\ubcGameJam\amb\amb\Meddow_Ambience_Loop	
+	273884291	Dam_Ambiance_Loop	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\Dam_Ambiance_Loop_50F3B81A.wem	273884291.wem	\Actor-Mixer Hierarchy\ubcGameJam\amb\amb\Dam_Ambiance_Loop	
+	517083786	Torch_Loop	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\Torch_Loop_50F3B81A.wem	517083786.wem	\Actor-Mixer Hierarchy\ubcGameJam\amb\amb\Torch_Loop	
+	517476737	Cave_Ambiance	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\Cave_Ambiance_50F3B81A.wem	517476737.wem	\Actor-Mixer Hierarchy\ubcGameJam\amb\amb\Cave_Ambiance	
+	632826500	musicLoop	Z:\Users\Shared\Unity\ubcGameJam2018\ubcGameJam\ubcGameJam_WwiseProject\.cache\Mac\SFX\musicLoop_50F3B81A.wem	632826500.wem	\Interactive Music Hierarchy\ubcGameJam\mx\musicLoop\musicLoop	
+

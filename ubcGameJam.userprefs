@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerCharacter.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PlayerCharacter.cs" Line="41" Column="37" />
+      <File FileName="Assets/zone.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Pipe.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TileProperties.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/OSC/OSCHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/OSC/OSCManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CameraArea.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SwitchProperties.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
